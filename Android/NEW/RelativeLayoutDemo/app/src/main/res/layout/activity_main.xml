@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jannat.relativelayoutdemo.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/myPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="85dp"
+            android:maxWidth="85dp"
+            android:src="@drawable/my"/>
+
+        <RelativeLayout
+            android:id="@+id/myR1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/myPhoto">
+            <TextView
+                android:id="@+id/myName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/user_name"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/myEmail"
+                android:layout_below="@+id/myName"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="1dp"
+                android:text="@string/tarunaronno005_gmail_com"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#6b9aff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_toRightOf="@+id/myR1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/follow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/btn_style"
+                android:text="Follow"
+                android:textAllCaps="false"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_toRightOf="@+id/follow"
+                android:layout_width="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/btn_style"
+                android:padding="10dp"
+                android:src="@drawable/plus"
+                android:layout_alignBottom="@+id/follow" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/des"
+            android:layout_below="@+id/myPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/description"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#949694" />
+        <LinearLayout
+            android:id="@+id/li"
+            android:layout_below="@+id/des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="@string/photos"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textColor="#848684"
+                android:layout_height="match_parent"
+                android:background="#424142"/>
+            <Button
+                android:layout_marginLeft="2dp"
+                android:text="@string/following"
+                android:textAllCaps="false"
+                android:textColor="#848684"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#424142"/>
+            <Button
+                android:layout_marginLeft="2dp"
+                android:text="@string/followers"
+                android:textAllCaps="false"
+                android:textColor="#848684"
+                android:background="#424142"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_below="@+id/li"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <include
+                layout="@layout/pic_layout">
+
+            </include>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

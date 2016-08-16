@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="110dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/sakib"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#f70404"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Name"
+                android:id="@+id/nameTextView"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="90dp" />
+            <TextView
+                android:textSize="20dp"
+                android:textColor="#f70404"
+                android:gravity="center"
+                android:text="Role"
+                android:id="@+id/roleTextView"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="90dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"></View>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/audio/libraries-audio.iml" filepath="$PROJECT_DIR$/libraries/audio/libraries-audio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/base/libraries-base.iml" filepath="$PROJECT_DIR$/libraries/base/libraries-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/common/libraries-common.iml" filepath="$PROJECT_DIR$/libraries/common/libraries-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/commonwidget/libraries-commonwidget.iml" filepath="$PROJECT_DIR$/libraries/commonwidget/libraries-commonwidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/controller/libraries-controller.iml" filepath="$PROJECT_DIR$/libraries/controller/libraries-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/panowidget/libraries-panowidget.iml" filepath="$PROJECT_DIR$/libraries/panowidget/libraries-panowidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/videowidget/libraries-videowidget.iml" filepath="$PROJECT_DIR$/libraries/videowidget/libraries-videowidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/sdk-controllerclient/samples-sdk-controllerclient.iml" filepath="$PROJECT_DIR$/samples/sdk-controllerclient/samples-sdk-controllerclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/sdk-simplepanowidget/samples-sdk-simplepanowidget.iml" filepath="$PROJECT_DIR$/samples/sdk-simplepanowidget/samples-sdk-simplepanowidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/sdk-simplevideowidget/samples-sdk-simplevideowidget.iml" filepath="$PROJECT_DIR$/samples/sdk-simplevideowidget/samples-sdk-simplevideowidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/sdk-treasurehunt/samples-sdk-treasurehunt.iml" filepath="$PROJECT_DIR$/samples/sdk-treasurehunt/samples-sdk-treasurehunt.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0ef406"
+    tools:context="com.example.bs151.relativelayoutdemo.MainActivity">
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:id="@+id/firstRawLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:id="@+id/explorerTextView"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Explorer"
+            android:background="@drawable/explorer"
+            android:gravity="bottom|center_horizontal" />
+        <TextView
+            android:layout_toRightOf="@+id/explorerTextView"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Store"
+            android:background="@drawable/store"
+            android:gravity="bottom|center_horizontal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/firstRawLayout"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/secondRawLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Mark zuckerbug"
+                android:background="@drawable/zuck"
+                android:gravity="bottom|center_horizontal" />
+            <TextView
+                android:layout_marginLeft="6dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Sakib Al Hasan"
+                android:background="@drawable/sakib"
+                android:gravity="bottom|center_horizontal" />
+            <TextView
+                android:layout_marginLeft="6dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Einstain"
+                android:background="@drawable/einstain"
+                android:gravity="bottom|center_horizontal" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/secondRawLayout"
+        android:id="@+id/thirdRawLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/desktop"
+            android:gravity="bottom|center_horizontal" />
+
+    </RelativeLayout>
+</RelativeLayout>

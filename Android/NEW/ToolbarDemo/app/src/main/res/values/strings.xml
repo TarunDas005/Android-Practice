@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToolbarDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_action_favourite">ActionFavouriteActivity</string>
+</resources>

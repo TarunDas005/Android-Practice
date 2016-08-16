@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UIControlsDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string-array name="days_of_week">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+    <string name="title_activity_auto_complete_text_field">AutoCompleteTextField</string>
+    <string name="title_activity_check_box">CheckBox</string>
+    <string name="title_activity_radio_group_class">RadioGroupClass</string>
+    <string name="title_activity_toggle_button">ToggleButtonActivity</string>
+    <string name="title_activity_date_time_picker">DateTimePicker</string>
+</resources>

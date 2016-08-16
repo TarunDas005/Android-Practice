@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#BB6B6B">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_gravity="center"/>
+   <LinearLayout
+       android:layout_marginBottom="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <TextView
+           android:gravity="center"
+           android:layout_weight="1"
+           android:id="@+id/idTextView"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:text="Id"
+           android:textAppearance="?android:textAppearanceLarge"
+           android:layout_gravity="center"/>
+
+       <TextView
+           android:gravity="center"
+           android:layout_weight="1"
+           android:id="@+id/deptTextView"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:text="Dept"
+           android:textAppearance="?android:textAppearanceLarge"
+           android:layout_gravity="center"/>
+   </LinearLayout>
+</LinearLayout>

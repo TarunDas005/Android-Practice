@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EmployeeInformationApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+    <string name="title_activity_update">UpdateActivity</string>
+</resources>

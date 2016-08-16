@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CardViewDemo</string>
+    <string-array name="player_name">
+        <item>Ashraful</item>
+        <item>Mahmudullah</item>
+        <item>Mashrafee</item>
+        <item>Abu hider</item>
+        <item>Arafat Sunny</item>
+        <item>Liiton Das</item>
+        <item>Mushfiqur Rahim</item>
+        <item>Sabbir Rahman</item>
+        <item>Sakib Al Hasan</item>
+        <item> Taskin Ahmed</item>
+    </string-array>
+    <string-array name="player_role">
+        <item>batsman</item>
+        <item>Allrounder</item>
+        <item>Bowler</item>
+        <item>Bowler</item>
+        <item>Bowler</item>
+        <item>Wicketkeeper</item>
+        <item>Wicketkeeper</item>
+        <item>batsman</item>
+        <item>Allrounder</item>
+        <item>Bowler</item>
+    </string-array>
+    <string-array name="player_mobile">
+        <item>01514167415</item>
+        <item>01814157415</item>
+        <item>01514167415</item>
+        <item>01714567718</item>
+        <item>01924114414</item>
+        <item>01874156415</item>
+        <item>01811164715</item>
+        <item>01914164411</item>
+        <item>01914167416</item>
+        <item>01814167417</item>
+    </string-array>
+</resources>

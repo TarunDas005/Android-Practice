@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#074538"
+    tools:context="com.example.bs151.app_b.MainActivity">
+
+    <TextView
+        android:text="App-B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+    
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Start Activity in App-A"
+        android:layout_gravity="center"
+        android:onClick="startActivityInAppA"/>
+</LinearLayout>

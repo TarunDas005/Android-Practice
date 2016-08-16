@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9E2F3"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <RelativeLayout
+        android:id="@+id/firstspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/edittext_border"
+            android:orientation="horizontal" >
+
+            <Spinner
+                android:id="@+id/profile_info_status"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittext_border"
+                android:entries="@array/name"
+                android:padding="5dp"
+                android:prompt="@string/select"
+                android:spinnerMode="dropdown"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|right"
+                android:background="@drawable/drop_down"
+                android:contentDescription="@string/app_name" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstspinner"
+        android:layout_marginTop="30dp" >
+
+        <LinearLayout
+            android:id="@+id/layout_comments"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/edittext_border"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/contactus_edittext_subject"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.1"
+                android:gravity="center|left"
+                android:hint="Message"
+                android:padding="5dp"
+                android:paddingLeft="2dp"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:textColor="#000000" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".9"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner_commenttype"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:entries="@array/message_types"
+                    android:padding="5dp"
+                    android:prompt="@string/select"
+                    android:spinnerMode="dropdown"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/drop_down"
+                    android:contentDescription="@string/app_name" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

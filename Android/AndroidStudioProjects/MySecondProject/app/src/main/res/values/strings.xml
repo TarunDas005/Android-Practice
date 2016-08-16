@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MySecondProject</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="SignInTitle">Sign in</string>
+    <string name="SingnInButtonText">Log in</string>
+</resources>

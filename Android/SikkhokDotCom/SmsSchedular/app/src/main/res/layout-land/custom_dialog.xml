@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Delete Message"
+        android:id="@+id/deleteMessageTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"
+        android:layout_marginTop="5dp"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cancel"
+        android:id="@+id/cancelTextView"
+        android:layout_below="@+id/deleteMessageTextView"
+        android:layout_alignLeft="@+id/deleteMessageTextView"
+        android:layout_alignStart="@+id/deleteMessageTextView"
+        android:layout_marginTop="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"
+        android:layout_marginTop="5dp"></View>
+</LinearLayout>

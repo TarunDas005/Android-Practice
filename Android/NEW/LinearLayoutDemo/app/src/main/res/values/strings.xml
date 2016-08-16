@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LinearLayoutDemo</string>
+    <string name="user_name">Tarun Das</string>
+    <string name="tarunaronno005_gmail_com">tarunaronno005@gmail.com</string>
+    <string name="description">International photographer currently based in the Katy/Houston area of Texas</string>
+    <string name="photos">29 Photos</string>
+    <string name="following">21 Following</string>
+    <string name="followers">3980 Followers</string>
+</resources>

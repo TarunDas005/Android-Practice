@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bs151.savefileintointernalstorage.MainActivity">
+
+    <EditText
+        android:id="@+id/writeMessageEditText"
+        android:gravity="top|left"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Write Message"/>
+
+    <Button
+        android:onClick="writeButtonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write Message"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:layout_marginBottom="5dp"
+        android:onClick="readButtonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Message"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/readMessageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello world"
+        android:gravity="center"/>
+</LinearLayout>

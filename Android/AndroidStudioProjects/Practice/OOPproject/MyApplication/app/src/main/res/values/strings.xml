@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PersonInformationAPP</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="date">Date Of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="title_activity_information_show">InformationShow</string>
+    <string name="title_activity_search_information">SearchInformation</string>
+</resources>

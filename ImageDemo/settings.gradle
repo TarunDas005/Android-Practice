@@ -1,0 +1,4 @@
+include ':app'
+include ':libraries:panowidget'
+include ':libraries:common'
+include ':libraries:commonwidget'

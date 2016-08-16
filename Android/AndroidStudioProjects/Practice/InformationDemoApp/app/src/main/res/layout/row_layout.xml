@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="80dp"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/firstNameOfRowLayout"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="First Name"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/lastNameOfRowLayout"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="Last Name"
+        android:layout_toRightOf="@+id/afterFirstNameVerticalLine"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/emailOfRowLayout"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="Email"
+        android:layout_toRightOf="@+id/afterLastNameVerticalLine"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/dateOfRowLayout"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="Date Of birth"
+        android:layout_toRightOf="@+id/afterEmailVerticalLine"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/genderOfRowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Gender"
+        android:layout_toRightOf="@+id/afterDateVerticalLine"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <View
+        android:id="@+id/afterFirstNameVerticalLine"
+        android:layout_width="2dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@+id/firstNameOfRowLayout"
+        android:background="#FFFFFF"></View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/firstNameOfRowLayout"
+        android:background="#FFFFFF"></View>
+    <View
+        android:id="@+id/afterLastNameVerticalLine"
+        android:layout_width="2dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@+id/lastNameOfRowLayout"
+        android:background="#FFFFFF"></View>
+    <View
+        android:id="@+id/afterEmailVerticalLine"
+        android:layout_width="2dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@+id/emailOfRowLayout"
+        android:background="#FFFFFF"></View>
+    <View
+        android:id="@+id/afterDateVerticalLine"
+        android:layout_width="2dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@+id/dateOfRowLayout"
+        android:background="#FFFFFF"></View>
+</RelativeLayout>

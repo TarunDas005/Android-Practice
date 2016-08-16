@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aronno_color">#009900</color>
+    <style name="AronnoTheme" parent="@style/Theme.AppCompat">
+        <item name="android:windowBackground">@color/aronno_color</item>
+    </style>
+</resources>

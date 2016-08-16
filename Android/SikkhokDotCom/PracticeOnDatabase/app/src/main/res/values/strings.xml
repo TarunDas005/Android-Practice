@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PracticeOnDatabase</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_employee_search">EmployeeSearchActivity</string>
+</resources>

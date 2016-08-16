@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#2cfe02">
+
+
+    <TextView
+        android:id="@+id/lastNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name: "
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <EditText
+        android:id="@+id/lastNameTextInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lastNameText"
+        android:width="250dp"/>
+
+    <Button
+        android:id="@+id/clickButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:layout_below="@+id/lastNameText"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

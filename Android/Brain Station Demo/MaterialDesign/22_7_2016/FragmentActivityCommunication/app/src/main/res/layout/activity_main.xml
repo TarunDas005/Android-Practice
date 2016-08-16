@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    tools:context="com.example.bs151.fragmentactivitycommunication.MainActivity">
+
+    <TextView
+        android:textColor="#000000"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment Communication Example"
+        />
+
+    <RelativeLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+    </RelativeLayout>
+</LinearLayout>

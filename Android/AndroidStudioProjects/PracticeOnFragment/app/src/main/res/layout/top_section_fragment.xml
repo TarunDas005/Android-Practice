@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/a">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/nameTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textview1"
+        android:layout_marginLeft="80dp"/>
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/textview1"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/idTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textview2"
+        android:layout_marginLeft="80dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:id="@+id/topClickButton"
+        android:layout_below="@+id/idTextField"
+        android:layout_toRightOf="@+id/textview1"
+        android:layout_toEndOf="@+id/textview1"
+        android:layout_marginTop="51dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/resetButton"
+        android:layout_alignTop="@+id/topClickButton"
+        android:layout_toRightOf="@+id/topClickButton"
+        android:layout_toEndOf="@+id/topClickButton"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp" />
+</RelativeLayout>

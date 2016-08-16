@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jannat.linearlayoutdemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="85dp"
+                android:maxWidth="85dp"
+                android:src="@drawable/my" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:text="@string/user_name"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="1dp"
+                            android:text="@string/tarunaronno005_gmail_com"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="#6b9aff"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/btn_style"
+                        android:text="Follow"
+                        android:textAllCaps="false"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/btn_style"
+                        android:padding="10dp"
+                        android:src="@drawable/plus" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/description"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#949694" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="@string/photos"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textColor="#848684"
+                android:layout_height="match_parent"
+                android:background="#424142"/>
+            <Button
+                android:layout_marginLeft="2dp"
+                android:text="@string/following"
+                android:textAllCaps="false"
+                android:textColor="#848684"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#424142"/>
+            <Button
+                android:layout_marginLeft="2dp"
+                android:text="@string/followers"
+                android:textAllCaps="false"
+                android:textColor="#848684"
+                android:background="#424142"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <include layout="@layout/pic_layout">
+
+        </include>
+
+    </LinearLayout>
+</ScrollView>

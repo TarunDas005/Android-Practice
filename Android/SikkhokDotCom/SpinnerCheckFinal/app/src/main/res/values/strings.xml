@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SpinnerCheckFinal</string>
+    <string name="action_settings">Settings</string>
+    <string name="select">Select</string>
+    <string-array name="name">
+        <item>Aronno</item>
+        <item>Jannat</item>
+    </string-array>
+
+    <string-array name="message_types">
+        <item>A</item>
+        <item>J</item>
+    </string-array>
+</resources>
